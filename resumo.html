@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotações JS</title>
+
+    <style>
+
+        h1{
+            background-color: rgb(255, 255, 255);
+            font-style: italic;
+            color: black;
+            text-align: center;
+            font-size: 35px;
+        }
+        h2{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: normal;
+            color: #000;
+            background-color: rgb(87, 87, 168);
+        }
+        h3{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 18px;
+            font: :bold;
+        }
+        body{
+            background-color: cornflowerblue;
+        }
+        p{
+            margin-top: -20px;
+        }
+        p#exemplo{
+            background-color: black;
+            color: white;
+        }
+        #container img{float: center;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Anotações Javascript
+    </h1>
+    <h2>Tipos de Dados Javascript</h2>
+    <h3>
+        <p>No Javascript temos como tipos de dados,temos o number(Infinity,NaN), string,boolean, null,undefined,object(Array),function.</p>
+    </h3>
+    <h2>
+        Declarações de variaveis 
+    </h2>
+    <h3>
+        <p><span style="background-color: yellowgreen;font-size: 25px;color: rgb(108, 66, 221);"> var</span> declara uma variável, opcionalmente, inicializando-a com um valor.</p>
+        <p> <span style="background-color: yellowgreen;font-size: 25px;color: rgb(108, 66, 221);">let</span> declara uma variável local de escopo do bloco, opcionalmente, inicializando-a com um valor.</p>
+        <p><span style="background-color: yellowgreen;font-size: 25px;color: rgb(108, 66, 221);"> const</span> declara uma constante de escopo de bloco, apenas de leitura.  </p>
+        <p><span style="font-size: 15px;color: rgb(253, 23, 23)">EXEMPLO:</span><br><p id="exemplo">var nome= window.prompt('Digite seu nome')//Para receber dados externos via teclado'</p></p>
+        <P>Conversão de variaveis string para Number é necessária para podermos realizar operações matematicas, pois tudo que é digitado no window.pront é uma string por isso é necessária a Conversão <br></P>
+        <p><span style="font-size: 15px;color: rgb(253, 23, 23)">EXEMPLO:</span><br><p id="exemplo">String para Number: var num1=Number(window.prompt('digite um numero'))</p></p>
+        <p id="exemplo">Convertendo para String na impressão na tela: window.alert('Esta é a soma dos dois numeros: '+String(resultado))</p>
+   </h3>
+   <h2>
+       Funções
+   </h2>
+   <h3>
+       <p><span style="font-size: 20px;background-color: rgb(221, 221, 221)">variavel.lengh</span> Está função ira contar quantos caracteres a string tem</p>
+       <p><span style="font-size: 20px;background-color: rgb(221, 221, 221)">variavel.toUpperCase()</span> Está função ira ira transformar toda string em maiscula </p>
+       <p><span style="font-size: 20px;background-color: rgb(221, 221, 221)">variavel.toLowerCase() </span> Está função ira ira transformar toda string em minuscula </p>
+       <p><span style="font-size: 20px;background-color: rgb(221, 221, 221)">n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})</span></p>
+   </h3>
+   <h2>
+       Operadores 
+   </h2>
+   <h3>
+       <div id="container">
+       <p ><span style="background-color: burlywood;"> Aritméticos</span><span style="background-color: rgb(123, 197, 123);"><br>
+             Operador de Soma:'+'<br>
+             Operador de Subtração :'-'<br>
+             Operador de Multiplicação:'*'<br>
+             Operador de Divisão:'/'<br>
+             Operador de Resto de Divisão:'%'<br>
+             Operador de Potência:'**'<br>
+            </span><img src="preced.PNG" alt="" width="" ></p></div>
+      
+        <p ><span style="background-color: burlywood;"> Atribuição</span><br><p>
+        <img src="atrib_simples.PNG" alt=""><br>
+        Auto Atribuição <br><img src="autoatrib.PNG" alt=""><br>
+        Operador de Incremento <br><img src="incremento.PNG" alt="">
+        </p></p>
+       
+       <p ><span style="background-color: burlywood;"> Relacionais</span></p>
+      
+       <p ><span style="background-color: burlywood;"> Lógicos</span></p>
+      
+       <p ><span style="background-color: burlywood;"> Ternário</span></p>
+   </h3>
+
+        
+</body>
+</html>
